@@ -8,33 +8,6 @@ This project involves the implementation of a single-layer Perceptron, a foundat
 
 The Perceptron is a type of linear classifier that makes decisions by computing a weighted sum of the input features and passing the result through a sign (step) function. Introduced by Frank Rosenblatt in 1957, it was one of the earliest models of supervised learning for binary classification.
 
-The model predicts a binary class label using the function:
-
-\[
-\hat{y} = \text{sign}(\mathbf{w} \cdot \mathbf{x} + b)
-\]
-
-Where:
-- \(\mathbf{x}\) is the input feature vector,
-- \(\mathbf{w}\) is the weight vector,
-- \(b\) is the bias term,
-- \(\hat{y}\) is the predicted class, typically in \{-1, +1\}.
-
-## Learning Rule
-
-The Perceptron is trained using the Perceptron Learning Algorithm. When the model misclassifies a sample, the weights and bias are updated as follows:
-
-\[
-\mathbf{w} \leftarrow \mathbf{w} + y_i \cdot \mathbf{x}_i
-\]
-\[
-b \leftarrow b + y_i
-\]
-
-Where \(y_i\) is the actual label of the instance (converted to -1 or +1), and \(\mathbf{x}_i\) is the input vector for that instance.
-
-This iterative update continues until all samples are correctly classified or a maximum number of iterations is reached.
-
 ## Applications
 
 Though simple, the Perceptron forms the basis of more complex learning systems and has applications in:
