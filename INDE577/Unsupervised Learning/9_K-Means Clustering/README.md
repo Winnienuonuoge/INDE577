@@ -33,8 +33,6 @@ To use K-Means clustering on numerical performance data from the 2017 NBA season
 
 ## 4. PCA Cluster Visualization
 
-![PCA Clustering](cluster_plot.png)
-
 - The PCA plot shows four distinct clusters with moderate separation.
 - Cluster 0 appears to span more broadly along PC1, suggesting more variance in star-level roles.
 - Clusters 1 and 2 are more compact and statistically homogeneous.
