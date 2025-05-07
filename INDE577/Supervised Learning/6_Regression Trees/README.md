@@ -56,15 +56,15 @@ These results indicate the model explains **87.8%** of the variance in carbon mo
 
 ## 6. Result Interpretation
 
-### ✅ Actual vs Predicted Plot:
+### Actual vs Predicted Plot:
 - Predicted values align well with actual values along the identity line.
 - The model slightly **underpredicts higher CO levels**, but overall tracks the true trend accurately.
 
-### ✅ Tree Structure:
+### Tree Structure:
 - The trained decision tree produces a balanced, interpretable structure.
 - Rules can be visualized to understand how sensor thresholds lead to specific CO(GT) predictions.
 
-### ✅ Feature Importance:
+### Feature Importance:
 - **C6H6(GT)** (benzene) is the most dominant predictor, contributing over **60%** of importance.
 - Other significant features include **PT08.S2(NMHC)** and **NOx(GT)**.
 - Most remaining features (e.g., humidity, temperature) have minimal impact.
@@ -79,4 +79,3 @@ The regression tree model proves highly effective at predicting carbon monoxide 
 - The tree structure is **interpretable**, making it useful for environmental decision-making.
 - A small number of features, especially **C6H6(GT)**, dominate the prediction process, highlighting potential pollutant relationships.
 
----
