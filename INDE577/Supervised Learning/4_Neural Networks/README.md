@@ -71,9 +71,6 @@ Test AUC: 0.8417
 
 During training, both training and validation accuracy were tracked across 30 epochs.
 
-### Accuracy Plot:
-![Training vs Validation Accuracy](training_vs_validation_accuracy.png)
-
 ### Analysis:
 - The **training accuracy** increased steadily and reached approximately **82%** by the final epoch.
 - **Validation accuracy** peaked around **77%** and then plateaued, indicating that the model started to slightly overfit after about 20 epochs.
