@@ -72,6 +72,7 @@ plt.ylabel("Predicted Value")
 plt.title("Actual vs Predicted Values - Linear Regression")
 plt.grid(True)
 plt.show()
+```
 
 ## 4. Results and Interpretation
 
